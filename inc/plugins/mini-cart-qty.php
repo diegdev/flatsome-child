@@ -91,7 +91,7 @@ add_action('wp_footer', function(){
         }
         .widget_shopping_cart_content .mini-cart-qty-wrapper .quantity input[type=number]{
             min-height: 26px;
-            color: #444;
+            color: #000;
             background: white;
             font-size: 16px;
             border: none !important;
