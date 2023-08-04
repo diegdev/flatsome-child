@@ -1,0 +1,95 @@
+.daily-deal-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 375px;
+}
+.daily-deal-container * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.daily-deal-container .daily-deal-title,
+.daily-deal-container .daily-daily-product-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.daily-deal-container .daily-deal-flex {
+  display: flex;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-image {
+  border-radius: 4px;
+  width: 150px;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper .daily-deal-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper .daily-deal-content .daily-deal-product-name {
+  margin-bottom: 0.75rem;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper .daily-deal-content .daily-deal-discount-amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: rgb(159, 76, 171);
+  background: linear-gradient(90deg, rgb(159, 76, 171) 0%, rgb(95, 76, 171) 100%);
+  color: #fff;
+  padding: 0.25rem 1.25rem;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 175px;
+  text-align: center;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper .daily-deal-content .product-info .category {
+  width: 150px;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper .daily-deal-content .product-info .category:hover {
+  opacity: 0.8;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper .daily-deal-content .product-info .category a {
+  color: #fff;
+  background-color: #50aa5a;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 100% !important;
+  display: block;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper a {
+  text-decoration: none;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper > a {
+  margin: auto 0;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper a.daily-deal-shop-now {
+  background-color: #046839;
+  max-width: 100px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+.daily-deal-container .daily-deal-flex .daily-deal-content-wrapper a.daily-deal-shop-now:hover {
+  opacity: 0.8;
+}

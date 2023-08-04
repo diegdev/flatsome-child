@@ -1,0 +1,102 @@
+.gs-page-content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gs-club-page{
+    padding: 1rem;
+}
+
+.gs-club-product-row{
+    margin-top: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.gs-club-product-row > h2{
+  text-align: center;
+}
+
+.user-logged-out{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0.99;
+    touch-action: none;
+    pointer-events: none;
+}
+
+.gs-page-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 28;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+.gs-page-overlay-on{
+  opacity: 1;
+}
+
+.gs-page-modal{
+    background-color: #2b2b2b;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 29;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    max-width: 100%;
+    width: 450px;
+  }
+
+.gs-page-modal-content .um-1571299 .um-form{
+    border: none!important;
+}
+
+.gs-page-modal-content .um-1571299{
+    margin: 0!important;
+}
+
+.gs-page-modal-content .modal-header{
+    padding-top: 1rem;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.modal-header > p > a{
+    color: #056638;
+}
+
+.hide-modal{
+    display: none;
+}
+
+.gs-club-page-desktop{
+    display: none;
+}
+
+@media all and (min-width: 850px){
+    .gs-club-page-desktop{
+        display: block;
+    }
+
+    .gs-club-page-mobile{
+        display: none;
+    }
+
+  }
+  
+  @media all and (min-width: 1290px){
+  .gs-club-page{
+    max-width: 80%;
+  }
+}

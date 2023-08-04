@@ -1,0 +1,53 @@
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/admin.scss ***!
+  \*********************************************************************************************************/
+.post-type-shop_order #posts-filter .alignleft {
+  float: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.post-type-shop_order #posts-filter .alignleft.bulkactions {
+  float: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.post-type-shop_order #posts-filter .alignleft #filter-by-date {
+  float: none;
+}
+.post-type-shop_order #posts-filter .ac-search {
+  float: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.post-type-shop_order #posts-filter .ac-search .query-builder {
+  display: none !important;
+}
+.post-type-shop_order #posts-filter #barcode-scan-form {
+  margin-bottom: 20px;
+}
+.post-type-shop_order #posts-filter #barcode-scan-result {
+  margin-bottom: 0;
+}
+.post-type-shop_order .ui-button.ui-dialog-titlebar-close {
+  font-size: 0;
+  margin-top: 5px;
+}
+
+.post-type-shop_order #barcode-scan-loader {
+  display: none;
+}
+.post-type-shop_order .ui-dialog-titlebar-close:before {
+  display: none;
+}
+.post-type-shop_order .ui-dialog .ui-dialog-titlebar-close {
+  top: 20%;
+}
+.post-type-shop_order .ui-dialog {
+  z-index: 99999;
+}

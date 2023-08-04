@@ -1,0 +1,194 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+.mobile-category-btns{
+	display: none;
+}
+
+.mobile-fliter-btn .breadcrumbs{
+    display: none;
+}
+.mobile-filter-select, .mobile-fliter-btn{
+    width: 48%;
+    max-width: 250px;
+}
+
+.value-product-id-variation-single-custom .item-product-variation{
+    margin-right: 5px !important;
+}
+.product-variant-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.variant-select-hover{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.4s;
+    color: black;
+    padding-right: 10px;
+    letter-spacing: -0.3px;
+}
+.value-product-id-variation-single-custom .item-product-variation.active-item .variant-select-hover{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: all ease 0.4s;
+}
+.product-variant-price-select{
+    border-radius: 6px;
+    border: 2px solid #046839;
+    padding: 8px 13px;
+    background: white;
+    transition: all ease 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.value-product-id-variation-single-custom .item-product-variation.active-item .product-variant-price-select, .value-product-id-variation-single-custom .item-product-variation:hover .product-variant-price-select{
+    background: #046839;
+    transition: all ease 0.4s;
+}
+.value-product-id-variation-single-custom .item-product-variation .product-variant-price-select .title_variation{
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 6px;
+    border: none;
+}
+.value-product-id-variation-single-custom .item-product-variation.active-item .product-variant-price-select .title_variation, .value-product-id-variation-single-custom .item-product-variation:hover .product-variant-price-select .title_variation{
+    color: white;   
+}
+.value-product-id-variation-single-custom .item-product-variation .product-variant-price-select .per-g-item-product .price-custom{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background: #07AC5E;
+    padding: 2px 4px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 3px;
+}
+.value-product-id-variation-single-custom .item-product-variation .product-variant-price-select .per-g-custom{
+    font-size: 14px;
+    color: #828282;
+}
+.value-product-id-variation-single-custom .item-product-variation.active-item .product-variant-price-select .per-g-custom, .value-product-id-variation-single-custom .item-product-variation:hover .product-variant-price-select .per-g-custom{
+    color: white;
+}
+.single-product-content-inner{
+    align-items: flex-start;
+}
+.single-product-content-inner > .product-gallery{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 130px;
+}
+.sticky-add-to-cart--active {
+    z-index: 9999999999 !important;
+}
+.custom_sticky_variant_select{
+    margin-bottom: 0;
+    height: 2.2em;
+    font-size: 1em;
+}
+.sticky-variant-wrapper{
+    padding-right: 10px;
+}
+.sticky-add-to-cart__product .bt_attr_weight{
+    display: none !important;
+}
+.sticky-add-to-cart__product .product-title-small{
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.sticky-add-to-cart-wrapper .product-title-small strong{
+    font-weight: 600;
+}
+
+
+
+
+@media (max-width: 849px){
+    .mobile-category-btns{
+		display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .featured-title .page-title-inner .category-filtering{
+		display: none;
+    }
+    .featured-title .page-title-inner > div:last-child{
+    	display: none;
+    }
+    .mobile-filter-select select{
+        border-radius: 4px;
+    }
+    .mobile-category-btns .category-filter-row{
+        height: 2.507em;
+        padding: 0 15px;
+        margin-right: 10px;
+        background: #046839;
+        border-radius: 4px;
+    }
+    .mobile-category-btns .category-filter-row a.filter-button{
+        color: #fff;
+        text-transform: none;
+        margin-top: 6px;
+		width: 100%;
+		padding: 5px;
+    }
+    .mobile-category-btns .category-filter-row strong{
+        font-weight: 400;
+    }
+	.mobile-filter-select form{
+		width: 100%;
+	}
+}
+@media (max-width: 450px){
+    .mobile-category-btns{
+        justify-content: space-between;
+    }
+    .mobile-category-btns .category-filter-row a.filter-button{
+        font-size: 13px;
+        margin-top: 4px;
+    }
+    .mobile-filter-select select{
+        font-size: 13px;
+        height: 36px;
+    }
+    .mobile-category-btns .category-filter-row {
+        height: 36px;
+        margin-right: 0;
+        padding: 0 15px;
+    }
+    .value-product-id-variation-single-custom .item-product-variation .product-variant-price-select .title_variation{
+        font-size: 18px;
+    }
+    .value-product-id-variation-single-custom .item-product-variation .product-variant-price-select .per-g-item-product .price-custom {
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .value-product-id-variation-single-custom .item-product-variation .product-variant-price-select .per-g-custom {
+        font-size: 12px;
+    }
+    .product-variant-price-select{
+        padding: 6px 10px;
+    }
+    .value-product-id-variation-single-custom .item-product-variation {
+        margin-right: 3px !important;
+        margin-bottom: 6px !important;
+    }
+    .sticky-variant-wrapper{
+        padding-right: 0;
+    }
+}

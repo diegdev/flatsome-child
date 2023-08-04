@@ -1,0 +1,369 @@
+$primary_color: #046738;
+.wlc-connect-socials {
+  text-align: center;
+  > .col {
+    width: calc(50% - 30px);
+    flex-basis: unset;
+  }
+  .img {
+    display: flex;
+    min-height: 141px;
+    align-items: center; 
+    justify-content: center;
+    img {
+      width: unset;
+    }
+  } 
+  @media(max-width: 600px) {
+    > .col {
+      width: calc(100% - 30px);
+    }
+  }
+}
+.um-page-account {
+  .um-account {
+    background: #f3f3f3;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    .um-account-name {
+      .um-account-profile-link {
+        display: inline-block;
+        a.um-link {
+          color: #078c4d;
+        }
+      }
+    }
+    .um-account-side {
+      padding: 15px 0 15px 30px;
+      border-right: 1px solid #eeeeee;
+      ul {
+        background: #ffffff;
+        border-radius: 5px 0 0 5px;
+        li {
+          background: transparent;
+          a {
+            position: relative;
+            color: #555555;
+            padding: 12px 0;
+            &:before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 3px;
+              height: 100%;
+              background: #078c4d;
+              opacity: 0;
+            }
+            &.current {
+              color: #000000 !important;
+              background: linear-gradient(
+              45deg, #eeeeee, transparent);
+              &:hover, &:focus {
+                color: #000000 !important;
+                background: linear-gradient(
+                45deg, #eeeeee, transparent);
+                &:before {
+                  opacity: 1;
+                }
+              }
+              &:before {
+                opacity: 1;
+              }
+              span.um-account-icon {
+                color: inherit;
+              }
+              span.um-account-title {
+                color: inherit;
+              }
+            }
+            &:hover {
+              color: inherit;
+              background: transparent;
+              &:before {
+                opacity: 0.3;
+              }
+            }
+            span.um-account-icon {
+              color: #555555;
+              border: none;
+            }
+            span.um-account-title {
+              font-weight: 400;
+              padding-left: 0;
+            }
+            span.um-account-arrow {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .um-account-main {
+      max-width: unset;
+      background: #ffffff;
+      padding: 15px 15px 15px 30px;
+      border-left: 1px solid #eeeeee;
+      input[type=submit].um-button {
+        font-size: 14px;
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+        background: #078c4d;
+        &:hover {
+          background: #056839;
+        }
+      }
+      .um-account-tab-welcome {
+        .col-inner {
+          width: calc(100% - 60px);
+        }
+        h2 {
+          font-size: 36px;
+          font-weight: 700;
+          color: #333333;
+        }
+        h3 {
+          font-size: 24px;
+          font-weight: 700;
+          color: #333333;
+        }
+        .woo-price-rewards {
+          font-size: 30px;
+          font-weight: 700;
+          span.amount {
+            color: #ffffff;
+          }
+        }
+      }
+      .um-account-tab-general {
+        .account-created {
+          display: inline-block;
+          text-align: center;
+          padding: 20px;
+          border-radius: 8px;
+          -webkit-box-shadow: 0 0 20px #eeeeee inset;
+          box-shadow: 0 0 20px #eeeeee inset;
+        }
+      }
+      .um-account-tab-cashback_points {
+        .um-cashback-message {
+          margin-bottom: 15px;
+        }
+        .my_account_points_rewards {
+          span.amount {
+            font-weight: 400;
+            color: #666;
+          }
+        }
+      }
+      .um-account-tab-review {
+        .um-review-content {
+          position: relative;
+          p {
+            margin-top: 10px !important;
+          }
+          .banner {
+            h1 {
+              font-size: 3em;
+            }
+            h2 {
+              font-size: 2.4em;
+            }
+            h3 {
+              font-size: 1.5em;
+            }
+            h4 {
+              font-size: 1.2em;
+            }
+          }
+          > div.banner {
+            width: calc(100% + 45px);
+            margin: -15px -15px 0 -30px;
+          }
+        }
+        .section {
+          padding-left: 0;
+          padding-right: 0;
+          .banner-grid {
+            margin: 0 -10px;
+            .grid-col {
+              padding: 0 0 20px;
+              > .col-inner {
+                width: calc(100% - 20px);
+                margin: 0 10px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media( min-width: 591px ) and ( max-width: 890.98px ) {
+    .um-account {
+      .um-account-side {
+        padding: 0;
+        .um-account-meta {
+          display: none;
+        }
+      }
+      .um-account-main {
+        padding: 15px;
+        .um-account-tab-review .um-review-content > div.banner {
+          width: calc(100% + 30px);
+          margin: -15px -15px 0 -15px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 849px) {
+    .touch-scroll-table {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      -webkit-box-shadow: unset;
+      box-shadow: unset;
+    }
+  }
+
+  @media( max-width: 590.98px ) {
+    .um-account {
+      .um-account-name {
+        padding-bottom: 12px;
+      }
+      .um-account-main {
+        padding: 0 15px;
+        .um-account-tab-welcome .contact-infor .social a {
+          padding: 15px;
+        }
+        .um-account-tab-general .account-created {
+          margin-top: 15px;
+        }
+        .um-account-tab-review .um-review-content > div.banner {
+          width: calc(100% + 30px);
+          margin: 0 -15px;
+        }
+      }
+    }
+  }
+
+}
+
+.um-rewards-content{
+  .rewards_list{
+    .rewards_item{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 2px solid $primary_color;
+        color: $primary_color;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-right: 10px;
+        font-weight: bold;
+        &:after{
+          content: "";
+          height: 2px;
+          width: 16px;
+          position: absolute;
+          right: -16px;
+          top: 50%;
+          background: $primary_color;
+        }
+        &:last-child{
+          margin-right: 0;
+          &:after{
+            display: none;
+          }
+        }
+        &.rewards_item_active{
+          background: $primary_color;
+          color: #FFFFFF;
+        }
+    }
+  }
+}
+// .products-rewards{
+//   .single_product{
+//     display: flex;
+//     flex-direction: column;
+//     > .woocommerce-Price-amount{
+//       text-decoration: line-through;
+//       text-decoration-color: red;
+//       text-decoration-thickness: 2px;
+//       opacity: .8;
+//     }
+//     .product_offer_description{
+//       margin-bottom: 20px;
+//       font-size: 13px;
+//     }
+//     .product_price_discount{
+//       margin: 10px 0;
+//     }
+//     .claim_reward_form{
+//       margin: auto 0 0 0;
+//     }
+//   }
+// }
+
+.um-welcome-content {
+	.nav {
+		.tab {
+			margin-right: 20px;
+			a {
+				span {
+					font-size: 20px;
+          font-weight: bold;
+				} 
+			} 
+			i { 
+				font-size: 10px;
+				vertical-align: bottom !important; 
+				color: #333 !important;
+			}
+		}
+		.tab.rewards_item_active {
+			i {
+				color: #FDCC0D !important;
+			}
+		}
+	}
+}
+
+.products-rewards{
+  .single_product{
+    background-color: rgb(240, 245, 247);
+    display: flex;
+    padding: 30px 30px 2px 30px;
+    .single_product_right{
+      > .woocommerce-Price-amount{
+        text-decoration: line-through;
+        text-decoration-color: red;
+        text-decoration-thickness: 2px;
+        opacity: .8;
+      }
+      .product_offer_description{
+        margin-bottom: 20px;
+        font-size: 13px;
+      }
+      .product_price_discount{
+        margin: 10px 0;
+      }
+      .claim_reward_form{
+        margin: auto 0 0 0;
+      }
+    }
+  }
+  .bt_rewards_heading{
+    font-weight: bold;
+    .bt_rewards_able{
+      color: $primary_color;
+    }
+  }
+}

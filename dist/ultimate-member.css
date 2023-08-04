@@ -1,0 +1,308 @@
+/*!*******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/ultimate-member.scss ***!
+  \*******************************************************************************************************************/
+.wlc-connect-socials {
+  text-align: center;
+}
+.wlc-connect-socials > .col {
+  width: calc(50% - 30px);
+  flex-basis: unset;
+}
+.wlc-connect-socials .img {
+  display: flex;
+  min-height: 141px;
+  align-items: center;
+  justify-content: center;
+}
+.wlc-connect-socials .img img {
+  width: unset;
+}
+@media (max-width: 600px) {
+  .wlc-connect-socials > .col {
+    width: calc(100% - 30px);
+  }
+}
+
+.um-page-account .um-account {
+  background: #f3f3f3;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.um-page-account .um-account .um-account-name .um-account-profile-link {
+  display: inline-block;
+}
+.um-page-account .um-account .um-account-name .um-account-profile-link a.um-link {
+  color: #078c4d;
+}
+.um-page-account .um-account .um-account-side {
+  padding: 15px 0 15px 30px;
+  border-right: 1px solid #eeeeee;
+}
+.um-page-account .um-account .um-account-side ul {
+  background: #ffffff;
+  border-radius: 5px 0 0 5px;
+}
+.um-page-account .um-account .um-account-side ul li {
+  background: transparent;
+}
+.um-page-account .um-account .um-account-side ul li a {
+  position: relative;
+  color: #555555;
+  padding: 12px 0;
+}
+.um-page-account .um-account .um-account-side ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: #078c4d;
+  opacity: 0;
+}
+.um-page-account .um-account .um-account-side ul li a.current {
+  color: #000000 !important;
+  background: linear-gradient(45deg, #eeeeee, transparent);
+}
+.um-page-account .um-account .um-account-side ul li a.current:hover, .um-page-account .um-account .um-account-side ul li a.current:focus {
+  color: #000000 !important;
+  background: linear-gradient(45deg, #eeeeee, transparent);
+}
+.um-page-account .um-account .um-account-side ul li a.current:hover:before, .um-page-account .um-account .um-account-side ul li a.current:focus:before {
+  opacity: 1;
+}
+.um-page-account .um-account .um-account-side ul li a.current:before {
+  opacity: 1;
+}
+.um-page-account .um-account .um-account-side ul li a.current span.um-account-icon {
+  color: inherit;
+}
+.um-page-account .um-account .um-account-side ul li a.current span.um-account-title {
+  color: inherit;
+}
+.um-page-account .um-account .um-account-side ul li a:hover {
+  color: inherit;
+  background: transparent;
+}
+.um-page-account .um-account .um-account-side ul li a:hover:before {
+  opacity: 0.3;
+}
+.um-page-account .um-account .um-account-side ul li a span.um-account-icon {
+  color: #555555;
+  border: none;
+}
+.um-page-account .um-account .um-account-side ul li a span.um-account-title {
+  font-weight: 400;
+  padding-left: 0;
+}
+.um-page-account .um-account .um-account-side ul li a span.um-account-arrow {
+  display: none;
+}
+.um-page-account .um-account .um-account-main {
+  max-width: unset;
+  background: #ffffff;
+  padding: 15px 15px 15px 30px;
+  border-left: 1px solid #eeeeee;
+}
+.um-page-account .um-account .um-account-main input[type=submit].um-button {
+  font-size: 14px;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  background: #078c4d;
+}
+.um-page-account .um-account .um-account-main input[type=submit].um-button:hover {
+  background: #056839;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-welcome .col-inner {
+  width: calc(100% - 60px);
+}
+.um-page-account .um-account .um-account-main .um-account-tab-welcome h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333333;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-welcome h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-welcome .woo-price-rewards {
+  font-size: 30px;
+  font-weight: 700;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-welcome .woo-price-rewards span.amount {
+  color: #ffffff;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-general .account-created {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 20px #eeeeee inset;
+  box-shadow: 0 0 20px #eeeeee inset;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-cashback_points .um-cashback-message {
+  margin-bottom: 15px;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-cashback_points .my_account_points_rewards span.amount {
+  font-weight: 400;
+  color: #666;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .um-review-content {
+  position: relative;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .um-review-content p {
+  margin-top: 10px !important;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .um-review-content .banner h1 {
+  font-size: 3em;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .um-review-content .banner h2 {
+  font-size: 2.4em;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .um-review-content .banner h3 {
+  font-size: 1.5em;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .um-review-content .banner h4 {
+  font-size: 1.2em;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .um-review-content > div.banner {
+  width: calc(100% + 45px);
+  margin: -15px -15px 0 -30px;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .section {
+  padding-left: 0;
+  padding-right: 0;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .section .banner-grid {
+  margin: 0 -10px;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .section .banner-grid .grid-col {
+  padding: 0 0 20px;
+}
+.um-page-account .um-account .um-account-main .um-account-tab-review .section .banner-grid .grid-col > .col-inner {
+  width: calc(100% - 20px);
+  margin: 0 10px !important;
+}
+@media (min-width: 591px) and (max-width: 890.98px) {
+  .um-page-account .um-account .um-account-side {
+    padding: 0;
+  }
+  .um-page-account .um-account .um-account-side .um-account-meta {
+    display: none;
+  }
+  .um-page-account .um-account .um-account-main {
+    padding: 15px;
+  }
+  .um-page-account .um-account .um-account-main .um-account-tab-review .um-review-content > div.banner {
+    width: calc(100% + 30px);
+    margin: -15px -15px 0 -15px;
+  }
+}
+@media (max-width: 849px) {
+  .um-page-account .touch-scroll-table {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+  }
+}
+@media (max-width: 590.98px) {
+  .um-page-account .um-account .um-account-name {
+    padding-bottom: 12px;
+  }
+  .um-page-account .um-account .um-account-main {
+    padding: 0 15px;
+  }
+  .um-page-account .um-account .um-account-main .um-account-tab-welcome .contact-infor .social a {
+    padding: 15px;
+  }
+  .um-page-account .um-account .um-account-main .um-account-tab-general .account-created {
+    margin-top: 15px;
+  }
+  .um-page-account .um-account .um-account-main .um-account-tab-review .um-review-content > div.banner {
+    width: calc(100% + 30px);
+    margin: 0 -15px;
+  }
+}
+
+.um-rewards-content .rewards_list .rewards_item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #046738;
+  color: #046738;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.um-rewards-content .rewards_list .rewards_item:after {
+  content: "";
+  height: 2px;
+  width: 16px;
+  position: absolute;
+  right: -16px;
+  top: 50%;
+  background: #046738;
+}
+.um-rewards-content .rewards_list .rewards_item:last-child {
+  margin-right: 0;
+}
+.um-rewards-content .rewards_list .rewards_item:last-child:after {
+  display: none;
+}
+.um-rewards-content .rewards_list .rewards_item.rewards_item_active {
+  background: #046738;
+  color: #FFFFFF;
+}
+
+.um-welcome-content .nav .tab {
+  margin-right: 20px;
+}
+.um-welcome-content .nav .tab a span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.um-welcome-content .nav .tab i {
+  font-size: 10px;
+  vertical-align: bottom !important;
+  color: #333 !important;
+}
+.um-welcome-content .nav .tab.rewards_item_active i {
+  color: #FDCC0D !important;
+}
+
+.products-rewards .single_product {
+  background-color: rgb(240, 245, 247);
+  display: flex;
+  padding: 30px 30px 2px 30px;
+}
+.products-rewards .single_product .single_product_right > .woocommerce-Price-amount {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+  opacity: 0.8;
+}
+.products-rewards .single_product .single_product_right .product_offer_description {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.products-rewards .single_product .single_product_right .product_price_discount {
+  margin: 10px 0;
+}
+.products-rewards .single_product .single_product_right .claim_reward_form {
+  margin: auto 0 0 0;
+}
+.products-rewards .bt_rewards_heading {
+  font-weight: bold;
+}
+.products-rewards .bt_rewards_heading .bt_rewards_able {
+  color: #046738;
+}

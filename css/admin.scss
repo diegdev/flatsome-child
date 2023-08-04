@@ -1,0 +1,56 @@
+.post-type-shop_order {
+    #posts-filter {
+        .alignleft {
+            float: none;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            &.bulkactions {
+                float: none;
+                margin-bottom: 20px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+            #filter-by-date {
+                float: none;
+            }
+        }
+        .ac-search {
+            float: none;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            .query-builder {
+                display: none !important;
+            }
+        }
+        #barcode-scan-form {
+            margin-bottom: 20px;
+        }
+        #barcode-scan-result {
+            margin-bottom: 0;
+        }
+    }
+    .ui-button.ui-dialog-titlebar-close {
+        font-size: 0;
+        margin-top: 5px;
+    }
+}
+// barcode
+.post-type-shop_order {
+  #barcode-scan-loader {
+      display: none;
+  }
+  .ui-dialog-titlebar-close:before{
+    display: none;
+  }
+  .ui-dialog .ui-dialog-titlebar-close{
+    top: 20%;
+  }
+  .ui-dialog{
+    z-index: 99999;
+  }
+}
